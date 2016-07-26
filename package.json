@@ -1,0 +1,19 @@
+{
+  "name": "node-red-contrib-gtfs-realtime",
+  "version": "0.0.1",
+  "description": "A Node-RED node for parsing GTFS-Realtime protobuf binary buffers, using gtfs-realtime-bindings.",
+  "main": "node-red-contrib-gtfs-realtime.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pkovac@iweave.com",
+  "license": "MIT",
+  "dependencies": {
+    "gtfs-realtime-bindings": "0.0.4"
+  },
+  "node-red": {
+    "nodes": {
+      "gtfs-realtime": "node-red-contrib-gtfs-realtime.js"
+    }
+  }
+}
